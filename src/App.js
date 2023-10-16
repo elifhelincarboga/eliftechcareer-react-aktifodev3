@@ -7,8 +7,8 @@ function App() {
 
     const change = () => {
       debugger
-      setWidth(width)
-      setHeight(height)
+      setWidth(parseInt(width))
+      setHeight(parseInt(height))
     }
 
     const changeWidth = (e) => {
