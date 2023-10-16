@@ -6,7 +6,6 @@ function App() {
     let [height, setHeight] = useState(200);
 
     const change = () => {
-      debugger
       setWidth(parseInt(width))
       setHeight(parseInt(height))
     }
